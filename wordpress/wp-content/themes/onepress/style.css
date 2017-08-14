@@ -776,13 +776,19 @@ h6, p, ul, ol, dl, blockquote, pre {
 	margin: 0px;
 	line-height: 1;
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #000000;
 	display: initial;
 	vertical-align: middle;
 	font-weight: 600;
+}
+
+@media screen and (min-width: 480px) {
+	.site-branding .site-title, .site-branding .site-text-logo {
+		font-size: 23px;
+	}
 }
 
 .site-branding .site-title:hover, .site-branding .site-text-logo:hover {
