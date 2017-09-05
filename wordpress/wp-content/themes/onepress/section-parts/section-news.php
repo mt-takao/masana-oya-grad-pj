@@ -29,62 +29,15 @@ $desc = get_theme_mod( 'onepress_news_desc' );
 			<h5 class="section-subtitle">Information</h5>
 			<h2 class="section-title">真那さん卒業企画へのカンパのお願い</h2>  
 			<div class="section-desc">
-				<p style="text-align: center">私たち大矢真那さん卒業企画では、9年間SKE48を愛し支え続けてきてくれた真那さんへ、<br />
-				精一杯の愛と感謝の気持ちを込めて、卒業までの各種イベントでの企画を準備しております。<br />
-				また、企画の趣旨にご賛同いただける皆様へ、企画のためのカンパをお願いしております。<br />
-				ご協力いただけます方は、次の詳細と注意点をご確認のうえ、受付口座までお振込みいただきますようお願いいたします。</p>
+				<p style="text-align: center">大矢真那卒業企画では、約9年間沢山の夢と笑顔を届けてくれた真那さんへ感謝を込めて、<br>日本ガイシホールでの卒業コンサートと、SKE48劇場での卒業公演での企画を準備しております。</p>
 			</div>
+			<a class="btn btn-theme-primary-outline" href="<?php echo esc_url( home_url( '/donation' ) ); ?>">詳細はこちらから</a>
         </div>
 		<?php } ?>
 		<div class="section-content">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="blog-entry wow slideInUp">
-
-					<article id="post-1" class="list-article clearfix post-1 post type-post status-publish format-standard hentry category-1">
-
-					<table class="table">
-						<tbody>
-							<tr>
-								<td class="table-info">カンパ金額</td>
-								<td>1,000円/1口（口数は任意）</td>
-							</tr>
-							<tr>
-								<td class="table-info">受付期間</td>
-								<td>～9月15日（木）</td>
-							</tr>
-							<tr>
-								<td class="table-info">受付口座</td>
-								<td><p>【ゆうちょ銀行からお振込の場合】<br>
-								記号：１２０１０<br>
-								番号：１５３２３００１</p>
-								<p>【他行からのお振込の場合】<br>
-								店名：二〇八（ニゼロハチ）<br>
-								種目：普通<br>
-								口座番号：１５３２３００<br>
-								名義：大矢真那後援会（オオヤマサナコウエンカイ）</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-
-				<div>
-					<p>※注意事項</p>
-					<ul>
-						<li>ゆうちょ銀行以外からお振込いただく場合、振込手数料はお振込みいただく方ご自身でご負担ください。</li>
-						<li>この企画へのカンパは卒業コンサートや卒業公演の当選を保証するものではありません。</li>
-						<li>企画の内容についてはサプライズで行うため、当日までお伝えできません。</li>
-						<li>卒業コンサートの内容や卒業までのスケジュール等に関しての質問にはお答えできません。</li>
-						<li>この企画についてメンバー、SKE48運営に問合わせることは絶対にしないでください。</li>
-					</ul>
-
-
-				</div>
-	</div>
-
-</article><!-- #post-## -->
-
-
 						<?php
 						$query = new WP_Query(
 							array(
