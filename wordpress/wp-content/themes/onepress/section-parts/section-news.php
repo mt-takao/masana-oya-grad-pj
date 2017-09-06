@@ -26,7 +26,7 @@ $desc = get_theme_mod( 'onepress_news_desc' );
             <?php if ( $desc ) {
                 //echo '<div class="section-desc">' . apply_filters( 'onepress_the_content', wp_kses_post( $desc ) ) . '</div>';
 			} ?>
-			<h5 class="section-subtitle">Information</h5>
+			<h5 class="section-subtitle" id="information">Information</h5>
 			<h2 class="section-title">真那さん卒業企画へのカンパのお願い</h2>  
 			<div class="section-desc">
 				<p style="text-align: center">大矢真那卒業企画では、約9年間沢山の夢と笑顔を届けてくれた真那さんへ感謝を込めて、<br>日本ガイシホールでの卒業コンサートと、SKE48劇場での卒業公演での企画を準備しております。</p>
